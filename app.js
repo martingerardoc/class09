@@ -30,3 +30,5 @@
  }));
 
  console.log("El array modificado es " + numerosMultiplicados);
+
+ // vite es un empaquetador con un transpilador agarra los paquete de datos y los empaqueta
