@@ -17,4 +17,16 @@
 
  console.log("el array despues de eliminar el ultimo elemento es :" + frutas);
 
- 
+
+ // EJERSICIO 2
+ // Crear um array y multiplicarlo por 2 con .map()
+
+ const numeros =[1,2,3,4,5];
+
+ console.log("El arrar original es " + numeros);
+
+ const numerosMultiplicados = numeros.map((num => {
+    return num *2;
+ }));
+
+ console.log("El array modificado es " + numerosMultiplicados);
